@@ -1,6 +1,6 @@
 var a = prompt("Enter UserName");
 var b = prompt("Enter password");
-if (a == "S" && b == "T") {
+if (a == "Mylove" && b == "Trishu") {
     window.location.href = "combined.html";
 } else {
     alert("invalid details");
