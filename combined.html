@@ -1,0 +1,138 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=800, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+       <title>Happy Birthday</title>
+       
+        <link rel="stylesheet" href="bcombine.css">
+
+
+    <!--
+
+footer {
+  max-width: 500px;
+  margin: 40px auto;
+  font-family: 'Nobile', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #888;
+  text-align: center;
+}
+-->
+</head>
+
+<body>
+   <center>
+<center>
+        <div class="cake">
+            <div class="plate"></div>
+            <div class="layer layer-bottom"></div>
+            <div class="layer layer-middle"></div>
+            <div class="layer layer-top"></div>
+            <div class="icing"></div>
+            <div class="drip drip1"></div>
+            <div class="drip drip2"></div>
+            <div class="drip drip3"></div>
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+        </div>
+       
+</center>
+        <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
+        <div class="container">
+            <div class="balloon">
+                <div><span>☺</span>
+                </div>
+                <div><span>B</span>
+                </div>
+                <div><span>D</span>
+                </div>
+                <div><span>A</span>
+                </div>
+                <div><span>Y</span>
+                </div>
+                <div><span>!</span>
+                </div>
+            </div>
+            <h1 class="name">Trishaa...</h1>
+
+        </div>
+
+        <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+    </center>
+    <div id="card">
+        <div id="card-inside">
+<!--
+            <div id="open">
+                <p>hi</p>
+            </div>
+-->
+               <div class="wrap">
+                <p>Dear Trishu<br>
+                "Wishing u many many Happy😍 returns of the day meri paglu. U are very very very much special😘 to me.U are the reason of bringing so much joy to my heart🧡. I am thankful for every moment we spend together, and I wish our happiness never ends. Happy birthday budhuuu!
+                I will always be there with you forever.<br>
+            May god always bless you and fulfill all your dreams and make u healthy(neeni ki pills ka mom ko bta dena😂).Not may but must your days be brightful✨ and beautiful💕, The smile on your face never fades away and I m sorry bcoz koi gift nahi de ska and special tarah se wish nhi kr paya...Maaf kr dena plzz🤣🤣.Once again🥰 Happy birthday🍰🍾 to you Trishu💞.."
+                </p>
+                <center>
+                    <h4>from</h4>
+                </center>
+                <p class="signed">Mr.SK💓</p>
+
+            </div>
+        </div>
+        <div id="card-front">
+            <div class="wrap">
+                <h1 class="name1">Wish u very very Happy Birthday! Trishuu❤</h1>
+            </div>
+            <button id="open">&gt;</button>
+            <button id="close">&lt;</button>
+        </div>
+    </div>
+    <script>
+        (function() {
+            function $(id) {
+                return document.getElementById(id);
+            }
+
+            var card = $('card'),
+                openB = $('open'),
+                closeB = $('close'),
+                timer = null;
+            console.log('wat', card);
+            openB.addEventListener('click', function() {
+                card.setAttribute('class', 'open-half');
+                if (timer) clearTimeout(timer);
+                timer = setTimeout(function() {
+                    card.setAttribute('class', 'open-fully');
+                    timer = null;
+                }, 1000);
+            });
+
+            closeB.addEventListener('click', function() {
+                card.setAttribute('class', 'close-half');
+                if (timer) clearTimerout(timer);
+                timer = setTimeout(function() {
+                    card.setAttribute('class', '');
+                    timer = null;
+                }, 1000);
+            });
+
+        }());
+
+    </script>
+    <div style="visibility: hidden;">
+        <embed src="Happy%20Birthday%20To%20You%20Song%20Beautiful%20Instrumental%20By%20Lords%20of%20Beats%20New%202019.mp3" autostart="true" loop="true">
+    </div>
+<!--
+    
+    <div style="visibility: hidden;">
+        <embed src="bday.mp3" autostart="true" loop="true">
+    </div>
+-->
+
+</body>
+</html>
