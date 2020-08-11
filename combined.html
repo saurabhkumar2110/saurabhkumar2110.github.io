@@ -24,6 +24,7 @@ footer {
 </head>
 
 <body>
+  
    <center>
 <center>
         <div class="cake">
@@ -123,6 +124,14 @@ footer {
 
         }());
 
+    </script>
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
     </script>
     <div style="visibility: hidden;">
         <embed src="Happy%20Birthday%20To%20You%20Song%20Beautiful%20Instrumental%20By%20Lords%20of%20Beats%20New%202019.mp3" autostart="true" loop="true">
