@@ -17,6 +17,7 @@ body {
 */
     background:url(Annotation%202020-08-02%20163657.png);
     background-size:cover;
+    overflow: hidden;
    
 /*    padding: 50px;*/
 }
